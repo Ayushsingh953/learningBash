@@ -111,3 +111,13 @@ echo $?
 ```bash
 man <command>
 ```
+
+**print environment variables of shell**
+```bash
+printenv
+```
+
+**view all variables in the shell**
+```bash
+declare -p
+```
