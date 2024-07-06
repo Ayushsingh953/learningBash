@@ -101,3 +101,13 @@ find -name <file_name or folder_name>
 ```bash
 exit
 ```
+
+**view exit status of last command**
+```bash
+echo $?
+```
+
+**view manual of command**
+```bash
+man <command>
+```
