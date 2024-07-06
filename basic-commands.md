@@ -78,7 +78,7 @@ rm <file_name>
 rmdir <folder_name> 
 ```
 
-**remove folder adn its content**
+**remove folder and its content**
 ```bash
 rm -r <folder_name> 
 ```
