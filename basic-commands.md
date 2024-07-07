@@ -131,3 +131,23 @@ declare -p
 ```bash
 type <command>
 ```
+
+**redirect standard output to file**
+```bash
+echo 1> stdout.txt
+```
+
+**redirect error to file**
+```bash
+bad_command 2> stderr.txt
+```
+
+**redirect stdin to file**
+```bash
+<command> < <filename_for_stdin>
+```
+
+**print the contents of a file or input to stdout**
+```bash
+cat <file_name>
+```
