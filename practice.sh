@@ -7,3 +7,4 @@
 # create an array - ARR=("a","b","c")
 # print elements - echo ${ARR[1]}
 # print all elements - echo ${ARR[@]} or echo ${ARR[*]}
+# pattern matching - [[ hello =~ el ]]; echo $?
