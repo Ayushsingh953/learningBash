@@ -151,3 +151,8 @@ bad_command 2> stderr.txt
 ```bash
 cat <file_name>
 ```
+
+**see number of line, word count and bytes in file**
+```bash
+wc <file_name>
+```
