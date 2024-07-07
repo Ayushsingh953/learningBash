@@ -3,6 +3,11 @@
 echo hello wrold
 ```
 
+**take input**
+```bash
+read <variable_name>
+```
+
 **print Something to a file**
 ```bash
 echo <text> >> <file_name>
@@ -120,4 +125,9 @@ printenv
 **view all variables in the shell**
 ```bash
 declare -p
+```
+
+**view the type of a command**
+```bash
+type <command>
 ```
