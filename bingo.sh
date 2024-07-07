@@ -24,9 +24,3 @@ else
   echo $TEXT O:$NUMBER
 fi
 
-# help let
-# $((NUMBER+4))
-# echo $((NUMBER+4))
-# assign value after calc
-# J=$(($I-6))
-# (( ... )) will perform a calculation or operation and output nothing. $(( ... )) will replace the calculation with the result of it.
