@@ -1,0 +1,17 @@
+# command - echo "~~ kitty_ipsum_1.txt info ~~" >> kitty_info.txt
+~~ kitty_ipsum_1.txt info ~~
+
+#command - echo -e "\nNumber of lines:" >> kitty_info.txt 
+Number of lines:
+#command - cat kitty_ipsum_1.txt | wc -l >> kitty_info.txt 
+27
+
+#command - echo -e "\nNumber of words:" >> kitty_info.txt 
+Number of words:
+#command - cat kitty_ipsum_1.txt | wc -w >> kitty_info.txt
+332
+
+#command - echo -e "\nNumber of characters:" >> kitty_info.txt
+Number of characters:
+#command - wc -m < kitty_ipsum_1.txt >> kitty_info.txt
+1765
