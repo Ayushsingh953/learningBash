@@ -156,3 +156,18 @@ cat <file_name>
 ```bash
 wc <file_name>
 ```
+
+**command to find pattern in file**
+```bash
+grep "<pattern>" <file_name>
+```
+
+**command to replace pattern**
+```bash
+sed 's/<pattern_to_replace>/<pattern_to_replace_with>/<flag>' <file_name>
+```
+
+**view difference between two file**
+```bash
+diff <file_1> <file_2>
+```
