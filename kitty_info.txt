@@ -15,3 +15,36 @@ Number of words:
 Number of characters:
 #command - wc -m < kitty_ipsum_1.txt >> kitty_info.txt
 1765
+
+#command - grep -n --color "meow" kitty_ipsum_1.txt (gives line number and text in colored)
+1:hide from vacuum cleaner meow for catnip and act crazy steal
+4:shirt howl or gimme attention meow bye and eat grass, meow, and
+10:i stare at it i meow at it i do a wiggle come here birdy ears
+22:eat sniff catnip meow meowzer. good morning sunshine. lick human chase
+23:the pig around the house meow run in circles. always ensure to
+
+#command -  grep -c 'meow[a-z]*' kitty_ipsum_1.txt (give number of lines pattern occurs on)
+5
+
+# command - grep -o 'meow[a-z]*' kitty_ipsum_1.txt (puts matched words in new line)
+meow
+meow
+meow
+meow
+meow
+meowzer
+meow
+
+#command - echo -e "\nNumber of times meow or meowzer appears:" >> kitty_info.txt
+Number of times meow or meowzer appears:
+#command - grep -o 'meow[a-z]*' kitty_ipsum_1.txt | wc -l >> kitty_info.txt
+7
+
+#command - echo -e "\nLines that they appear on:" >> kitty_info.txt
+Lines that they appear on:
+# command - grep -n meow[a-z]* kitty_ipsum_1.txt | sed -E 's/([0-9]+).*/\1/' >> kitty_info.txt
+1
+4
+10
+22
+23
